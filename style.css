@@ -1,8 +1,17 @@
 body {
+	font-family: 'Seymour One', sans-serif;
 	margin: 0;
 	top: 0;
 	left: 0;
 	background-color: red;
+
+
+	cursor: url('img/cursor-porrillo.png'), auto;
+	cursor: -webkit-image-set(
+ 	url('img/cursor-porrillo.png') 1x,
+  	url('img/cursor-porrillo@2x.png') 2x
+	), auto;
+
 }
 
 .porrillos {
@@ -14,17 +23,35 @@ body {
 }
 
 .title {
-	max-width: 1040px;
+	max-width: 1240px;
 	position: absolute;
 	margin: 0 40px;
 	top: 50%;
-	transform: translateY(-50%) skewY(-10deg); 
+	transform: translateY(-50%) skewY(-10deg);
+	transition: 0.5s ease all;
+}
+
+.title:hover {
+	transform: translateY(-50%) skewY(-15deg);
+	cursor: pointer;
+	cursor: url('img/cursor-porrillo.png'), auto;
+	cursor: -webkit-image-set(
+ 	url('img/cursor-porrillo.png') 1x,
+  	url('img/cursor-porrillo@2x.png') 2x
+	), auto;
 }
 
 h1 {
 	text-align: left;
 	color: rgba(0,0,0,0);
 	-webkit-text-stroke: 2px yellow;
-	font-size: 124px;
+	font-size: 100px;
 	color: black;
+	letter-spacing: -3px;
+}
+
+h1:hover {
+	-webkit-text-stroke: 2px red;
+	color: yellow;
+	transition: 0.5s ease all;
 }

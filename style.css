@@ -55,3 +55,40 @@ h1:hover {
 	color: yellow;
 	transition: 0.5s ease all;
 }
+
+@media (max-width: 1024px) {
+
+	h1 {
+		font-size: 72px;
+	}
+
+.porrillos {
+	background-size: 180px;
+	}
+
+}
+
+@media (max-width: 599px) {
+
+	h1 {
+		font-size: 56px;
+	}
+
+.title {
+	margin: 0 16px;
+	}
+
+.porrillos {
+	background-size: 155px;
+	}
+
+.title:hover {
+	transform: translateY(-50%) skewY(-10deg);
+}
+
+h1:hover {
+	color: black;
+	-webkit-text-stroke: 2px yellow;
+}
+
+}

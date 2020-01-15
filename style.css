@@ -70,16 +70,17 @@ h1:hover {
 
 @media (max-width: 599px) {
 
-	h1 {
-		font-size: 40px;
-	}
+
+h1 {
+	font-size: 40px;
+}
 
 .title {
 	margin: 0 16px;
 	}
 
 .porrillos {
-	background-size: 155px;
+	background-size: 124px;
 	}
 
 .title:hover {

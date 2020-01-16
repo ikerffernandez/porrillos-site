@@ -103,6 +103,17 @@ body {
 	width: 90px;
 }
 
+.tiago1 {
+	position: absolute;
+	z-index: 2;
+	right: 24%;
+	top: 45%;
+}
+
+.tiago1 img {
+	width: 90px;
+}
+
 h1 {
 	text-align: left;
 	color: rgba(0,0,0,0);

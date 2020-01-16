@@ -41,6 +41,68 @@ body {
 	), auto;
 }
 
+.jesus {
+	position: absolute;
+	top: 5%;
+	left: 30%;
+	z-index: 2;
+}
+
+.jesus img {
+		width: 180px;
+}
+
+.jesus2 {
+	position: absolute;
+	right: 3%;
+	bottom: 16%;
+	z-index: 2;
+}
+
+.jesus2 img {
+	width: 132px;
+}
+
+.tostadora1 {
+	position: absolute;
+	z-index: 2;
+	left: 10%;
+	bottom: 5%;
+}
+
+.tostadora2 {
+	position: absolute;
+	z-index: 2;
+	right: 30%;
+	top: 5%;
+}
+
+.tostadora2 img {
+	width: 80px;
+}
+
+.tostadora3 {
+	position: absolute;
+	z-index: 2;
+	left: 2%;
+	top: 25%;
+}
+
+.tostadora1 img {
+	width: 100px;
+}
+
+.boca1 {
+	position: absolute;
+	z-index: 2;
+	right: 4%;
+	top: 18%;
+}
+
+.boca1 img {
+	width: 90px;
+}
+
 h1 {
 	text-align: left;
 	color: rgba(0,0,0,0);

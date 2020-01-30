@@ -65,6 +65,13 @@ body {
 	width: 132px;
 }
 
+.campana {
+	position: absolute;
+	top: 2%;
+	left: 9%;
+	z-index: 2;
+}
+
 .tostadora1 {
 	position: absolute;
 	z-index: 2;
@@ -163,7 +170,7 @@ h1 {
 }
 
 .jesus {
-	left: 10%;
+	left: 25%;
 
 }
 

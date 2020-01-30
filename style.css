@@ -5,6 +5,8 @@ body {
 	left: 0;
 	background-color: red;
 
+	overflow: hidden;
+
 
 	cursor: url('img/cursor-porrillo.png'), auto;
 	cursor: -webkit-image-set(
@@ -43,7 +45,7 @@ body {
 
 .jesus {
 	position: absolute;
-	top: 5%;
+	top: -5%;
 	left: 30%;
 	z-index: 2;
 }
@@ -107,7 +109,7 @@ body {
 	position: absolute;
 	z-index: 2;
 	right: 24%;
-	top: 45%;
+	top: 70%;
 }
 
 .tiago1 img {
@@ -158,6 +160,27 @@ h1 {
 
 .title:hover {
 	transform: translateY(-50%) skewY(-10deg);
+}
+
+.jesus {
+	left: 10%;
+
+}
+
+.jesus img {
+	width: 132px;
+}
+
+.tiago1 {
+	right: 35%; 
+}
+
+.tiago1 img {
+	width: 65px;
+}
+
+.jesus2 {
+	bottom: -8%;
 }
 
 h1:hover {
